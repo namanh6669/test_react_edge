@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render MyWebComponent 1`] = `
+<div>
+  <AppBar
+    onTitleTouchTap={[Function]}
+    showMenuIconButton={false}
+    title={
+      <span
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        S&P/ASX
+      </span>
+    }
+    zDepth={1}
+  >
+    <MyTabs
+      callbackTypeSort={[Function]}
+    />
+  </AppBar>
+  <div>
+    <MyTables
+      Type="Increase"
+    />
+  </div>
+</div>
+`;
